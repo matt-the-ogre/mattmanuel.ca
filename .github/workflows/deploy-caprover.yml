@@ -59,6 +59,11 @@ jobs:
           fi
           echo "Dockerfile found and ready for deployment"
 
+      - name: Create deployment archive
+        run: |
+          # Create tar archive excluding .git and other unnecessary files
+          tar --exclude='.git*' --exclude='node_modules' --exclude='.env*' --exclude='*.log' -czf deploy.tar .
+
       - name: Deploy to CapRover
         uses: caprover/deploy-from-github@v1.1.2
         with:

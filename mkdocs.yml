@@ -1,3 +1,7 @@
 site_name: Matt Manuel
 theme:
   name: material
+  hide:
+      - navigation
+nav:
+  - Home: index.md

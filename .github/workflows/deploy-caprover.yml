@@ -65,7 +65,6 @@ jobs:
           server: ${{ env.CAPROVER_URL }}
           app: ${{ env.APP_NAME }}
           token: ${{ secrets.CAPROVER_APP_TOKEN }}
-          image: dockerfile
 
       - name: Verify deployment
         run: |

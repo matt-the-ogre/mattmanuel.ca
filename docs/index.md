@@ -7,6 +7,7 @@ hide:
 ---
 
 # Matt Manuel
+
 *VP of Engineering • Technical Program Manager • Author • Mentor*
 
 ## Who am I?
@@ -26,7 +27,8 @@ hide:
 !!! note "Career Highlights"
     Seasoned technology leader with experience across gaming, enterprise software, and startup environments.
 
-### Recent Positions
+### Past Positions
+
 - **Principal Technical Program Manager** at [Microsoft](https://www.microsoft.com)
 - **Senior Director of Production Operations** at [Capcom](https://www.capcom.com) (Capcom Game Studio Vancouver)
 - **Senior Director of Product Development** at [Electronic Arts](https://www.ea.com) (The Sims franchise)
@@ -39,5 +41,5 @@ For complete career details, see my [LinkedIn profile](https://www.linkedin.com/
 ## Connect
 
 [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/mattman){ .md-button .md-button--primary }
-[:fontawesome-brands-twitter: Twitter](https://twitter.com/mattman){ .md-button }
+[:fontawesome-brands-twitter: Twitter](https://twitter.com/mattmanuel){ .md-button }
 [:fontawesome-brands-unsplash: Photography](https://unsplash.com/@sawtooth_utopia){ .md-button }

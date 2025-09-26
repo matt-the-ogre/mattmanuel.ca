@@ -1,0 +1,21 @@
+# ---- build stage ----
+FROM python:3.12-alpine AS build
+RUN pip install --no-cache-dir mkdocs mkdocs-material
+WORKDIR /src
+COPY . /src
+RUN mkdocs build --site-dir /out
+
+# ---- run stage ----
+FROM nginx:alpine
+RUN rm -rf /usr/share/nginx/html/* && \
+    printf 'server { \
+      listen 80; \
+      server_name _; \
+      root /usr/share/nginx/html; \
+      index index.html; \
+      gzip on; gzip_types text/css application/javascript application/json image/svg+xml text/plain text/xml; \
+      location / { try_files $uri $uri/ /index.html; } \
+      add_header Cache-Control "public, max-age=300"; \
+    }' > /etc/nginx/conf.d/default.conf
+COPY --from=build /out /usr/share/nginx/html
+EXPOSE 80

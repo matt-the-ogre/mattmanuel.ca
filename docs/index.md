@@ -1,28 +1,43 @@
+---
+title: Matt Manuel
+description: VP of Engineering, Technical Program Manager, Author, and Mentor
+hide:
+  - navigation
+  - toc
+---
+
 # Matt Manuel
+*VP of Engineering • Technical Program Manager • Author • Mentor*
 
 ## Who am I?
 
-* VP of Engineering at [Cognitive3D](https://www.cognitive3d.com)
-* [Volunteer Ambassador](https://ridebdr.com/bdr-ambassadors/) at [Backcountry Discovery Routes](https://www.ridebdr.com)
-* Volunteer member of the [Alumni Council](https://uwaterloo.ca/alumni/alumni-council) at [The University of Waterloo](https://www.uwaterloo.ca)
-* Mentor and coach at [Mentorcruise](https://mentorcruise.com/mentor/mattmanuel/)
-* Author of [The Book of TPM](https://bookoftpm.com), a handbook for Technical Program Managers
-* Author of [Tide Calendar](https://www.tidecalendar.xyz), a single-serving site to generate a monthly calendar of tide predictions.
+=== "Current Roles"
+    * **VP of Engineering** at [Cognitive3D](https://www.cognitive3d.com)
+    * **Volunteer Ambassador** at [Backcountry Discovery Routes](https://www.ridebdr.com)
+    * **Alumni Council Member** at [The University of Waterloo](https://www.uwaterloo.ca)
+    * **Mentor and Coach** at [Mentorcruise](https://mentorcruise.com/mentor/mattmanuel/)
 
-## What else have I done?
+=== "Published Works"
+    * **Author** of [The Book of TPM](https://bookoftpm.com) - A handbook for Technical Program Managers
+    * **Creator** of [Tide Calendar](https://www.tidecalendar.xyz) - Monthly tide prediction calendars
 
-* Principal Technical Program Manager at [Microsoft](https://www.microsoft.com)
-* Senior Director of Production Operations at [Capcom](https://www.capcom.com), at the now-closed Capcom Game Studio Vancouver
-* Senior Director of Product Development at [Electronic Arts](https://www.ea.com), where I worked on The Sims and The Sims mobile.
-* Director of Development at [Zynga](https://www.zynga.com)
-* CTO and VP of Engineering at [MightyPlay](https://mightyplay.com)
-* VP of Production Operations at [LucasArts](https://www.lucasfilm.com)
+## Professional Experience
 
-And more... for full details see my [LinkedIn profile](https://www.linkedin.com/in/mattman)
+!!! note "Career Highlights"
+    Seasoned technology leader with experience across gaming, enterprise software, and startup environments.
 
-## And what else?
+### Recent Positions
+- **Principal Technical Program Manager** at [Microsoft](https://www.microsoft.com)
+- **Senior Director of Production Operations** at [Capcom](https://www.capcom.com) (Capcom Game Studio Vancouver)
+- **Senior Director of Product Development** at [Electronic Arts](https://www.ea.com) (The Sims franchise)
+- **Director of Development** at [Zynga](https://www.zynga.com)
+- **CTO and VP of Engineering** at [MightyPlay](https://mightyplay.com)
+- **VP of Production Operations** at [LucasArts](https://www.lucasfilm.com)
 
-* Unfortunately I keep a Twitter / X presence for professional reasons.
-* I publish some of my best photos on [Unsplash](https://unsplash.com/@sawtooth_utopia)
+For complete career details, see my [LinkedIn profile](https://www.linkedin.com/in/mattman).
 
-(c) 2025, Matthew Manuel
+## Connect
+
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/mattman){ .md-button .md-button--primary }
+[:fontawesome-brands-twitter: Twitter](https://twitter.com/mattman){ .md-button }
+[:fontawesome-brands-unsplash: Photography](https://unsplash.com/@sawtooth_utopia){ .md-button }

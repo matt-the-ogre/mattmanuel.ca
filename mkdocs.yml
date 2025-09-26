@@ -1,7 +1,83 @@
 site_name: Matt Manuel
+site_url: https://www.mattmanuel.ca
+site_description: VP of Engineering, Technical Program Manager, Author, and Mentor
+site_author: Matthew Manuel
+
 theme:
   name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant    # Instant loading
+    - navigation.tracking   # Anchor tracking
+    - navigation.top        # Back to top button
+    - search.highlight      # Search highlighting
+    - search.share          # Search sharing
+    - header.autohide       # Auto-hide header on scroll
+    - content.code.copy     # Copy code button
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
   hide:
-      - navigation
+    - navigation
+
 nav:
   - Home: index.md
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - meta
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
+# Social links in footer
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mattman
+      name: LinkedIn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mattman
+      name: Twitter
+    - icon: fontawesome/brands/unsplash
+      link: https://unsplash.com/@sawtooth_utopia
+      name: Unsplash
+
+# SEO and metadata
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Copyright
+copyright: Copyright &copy; 2025 Matthew Manuel

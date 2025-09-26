@@ -1,0 +1,38 @@
+/* Custom styles for enhanced presentation */
+.md-typeset h1 {
+  font-weight: 300;
+  color: var(--md-primary-fg-color);
+}
+
+.md-button {
+  margin: 0.2rem;
+}
+
+/* Profile image styling */
+.profile-image {
+  border-radius: 50%;
+  max-width: 200px;
+  margin: 1rem auto;
+  display: block;
+}
+
+/* Enhanced card styling */
+.md-typeset .admonition {
+  border-radius: 0.5rem;
+}
+
+/* Custom spacing for better readability */
+.md-typeset .tabbed-set {
+  margin: 1.5rem 0;
+}
+
+/* Enhanced button styling */
+.md-button--primary {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+.md-button--primary:hover {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+}

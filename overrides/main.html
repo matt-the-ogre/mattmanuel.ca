@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- Plausible Analytics -->
+  <script defer data-domain="mattmanuel.ca" src="https://plausible.io/js/script.js"></script>
+
+  <!-- SEO structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Matthew Manuel",
+    "jobTitle": "VP of Engineering",
+    "url": "https://www.mattmanuel.ca",
+    "sameAs": [
+      "https://www.linkedin.com/in/mattman",
+      "https://twitter.com/mattman",
+      "https://unsplash.com/@sawtooth_utopia"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Cognitive3D"
+    }
+  }
+  </script>
+{% endblock %}

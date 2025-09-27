@@ -14,18 +14,13 @@ hide:
 
 === "Current Roles"
     * **VP of Engineering** at [Cognitive3D](https://www.cognitive3d.com)
-    * **Volunteer Ambassador** at [Backcountry Discovery Routes](https://www.ridebdr.com)
-    * **Alumni Council Member** at [The University of Waterloo](https://www.uwaterloo.ca)
-    * **Mentor and Coach** at [Mentorcruise](https://mentorcruise.com/mentor/mattmanuel/)
+    * Volunteer **[Ambassador](https://ridebdr.com/bdr-ambassadors/)** at [Backcountry Discovery Routes](https://www.ridebdr.com)
+    * Volunteer **[Alumni Council Member](https://uwaterloo.ca/alumni/alumni-council)** at [The University of Waterloo](https://www.uwaterloo.ca)
+    * **[Mentor and Coach](https://mentorcruise.com/mentor/mattmanuel/)** at [Mentorcruise](https://mentorcruise.com/mentor/mattmanuel/)
 
 === "Published Works"
     * **Author** of [The Book of TPM](https://bookoftpm.com) - A handbook for Technical Program Managers
     * **Creator** of [Tide Calendar](https://www.tidecalendar.xyz) - Monthly tide prediction calendars
-
-## Professional Experience
-
-!!! note "Career Highlights"
-    Seasoned technology leader with experience across gaming, enterprise software, and startup environments.
 
 ### Past Positions
 

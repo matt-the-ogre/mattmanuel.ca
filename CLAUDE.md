@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal website for Matt Manuel built using MkDocs with Material theme. The site is containerized with Docker and uses a multi-stage build process to generate static HTML from Markdown content and serve it via Nginx.
+This is a personal website for Matt Manuel built using MkDocs with Material theme. The site is containerized with Docker and uses a multi-stage build process to generate static HTML from Markdown content and serve it via Python's built-in HTTP server.
 
 ## Architecture
 
 - **Content**: Markdown files in the `docs/` directory (currently just `index.md`)
 - **Configuration**: `mkdocs.yml` configures the Material theme with hidden navigation
-- **Build Process**: Multi-stage Docker build that uses Python Alpine to generate static files, then serves them via Nginx Alpine
+- **Build Process**: Multi-stage Docker build that uses Python Alpine to generate static files, then serves them via Python's built-in HTTP server
 - **Deployment**: Uses CapRover deployment system (configured via `captain-definition`)
 
 ## Development Commands
@@ -36,14 +36,14 @@ mkdocs build
 docker build -t mattmanuel-site .
 
 # Run container locally
-docker run -p 8080:80 mattmanuel-site
+docker run -p 8080:8000 mattmanuel-site
 ```
 
 ## Key Files
 
 - `mkdocs.yml`: MkDocs configuration with Material theme
 - `docs/index.md`: Main content file containing personal/professional information
-- `Dockerfile`: Multi-stage build (Python for MkDocs build, Nginx for serving)
+- `Dockerfile`: Multi-stage build (Python for MkDocs build, Python HTTP server for serving)
 - `requirements.txt`: Python dependencies (mkdocs, mkdocs-material)
 - `captain-definition`: CapRover deployment configuration
 - `.env.example`: Environment variables template

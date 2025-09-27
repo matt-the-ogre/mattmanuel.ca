@@ -25,7 +25,7 @@ hide:
 ### Past Positions
 
 - **Principal Technical Program Manager** at [Microsoft](https://www.microsoft.com)
-- **Senior Director of Production Operations** at [Capcom](https://www.capcom.com) (Capcom Game Studio Vancouver)
+- **Senior Director of Production Operations** at [Capcom](https://www.capcomusa.com) (Capcom Game Studio Vancouver)
 - **Senior Director of Product Development** at [Electronic Arts](https://www.ea.com) (The Sims franchise)
 - **Director of Development** at [Zynga](https://www.zynga.com)
 - **CTO and VP of Engineering** at [MightyPlay](https://mightyplay.com)

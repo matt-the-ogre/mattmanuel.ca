@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -p 8000:80 mattmanuel-site
+docker run -d -p 8080:8000 --name mattmanuel-test mattmanuel-site
